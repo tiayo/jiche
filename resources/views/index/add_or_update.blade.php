@@ -66,6 +66,14 @@
                             <input type="text" class="form-control" id="departure_time" name="departure_time"  value="{{$old_input['departure_time']}}" placeholder="选择时间.." required>
                         </div>
                     </div>
+
+                    <div class="form-group">
+                        <label for="reserve_1" class="col-sm-2 col-sm-2 control-label">预留字段1</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="reserve_1" name="reserve_1" value="{{ $old_input['reserve_1'] }}" required>
+                        </div>
+                    </div>
+
                     <div class="form-group">
                         <div  class="col-sm-2 col-sm-2 control-label">
                             <button class="btn btn-success" type="submit"><i class="fa fa-cloud-upload"></i> 确认提交</button>

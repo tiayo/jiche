@@ -78,12 +78,19 @@ class IndexService
      */
     public function updateOrCreate($post, $id = null)
     {
-        //统计数据
+        //常规字段
         $data['train'] = $post['train'];
         $data['track'] = $post['track'];
         $data['arrival_time'] = $post['arrival_time'];
         $data['locomotive'] = $post['locomotive'];
         $data['departure_time'] = $post['departure_time'];
+
+        //预留字段
+        for ($i = 1; $i <= 5; $i++) {
+             if (isset($post['reserve_'.$i]) && !empty($post['reserve_'.$i])) {
+                 $data['reserve_'.$i] = $post['reserve_'.$i];
+             }
+        }
 
         //执行插入或更新
         return empty($id) ? $this->record->create($data) : $this->record->update($id, $data);

@@ -57,6 +57,7 @@
 		                    <th>到达时间</th>
                             <th>机车</th>
                             <th>出发时间</th>
+                            <th>预留字段1</th>
                             <th>修改时间</th>
                             @if (can('admin'))
 							    <th>操作</th>
@@ -73,6 +74,7 @@
                             <td>{{ $list['arrival_time'] }}</td>
                             <td>{{ $list['locomotive'] }}</td>
                             <td>{{ $list['departure_time'] }}</td>
+                            <td>{{ $list['reserve_1'] }}</td>
                             <td>{{ $list['updated_at'] }}</td>
                             @if (can('admin'))
                                 <td>
