@@ -57,11 +57,11 @@
 		                    <th>到达时间</th>
                             <th>机车</th>
                             <th>出发时间</th>
-                            <th>预留字段1</th>
-                            <th>预留字段2</th>
-                            <th>预留字段3</th>
-                            <th>预留字段4</th>
-                            <th>预留字段5</th>
+                            {{--<th>预留字段1</th>--}}
+                            {{--<th>预留字段2</th>--}}
+                            {{--<th>预留字段3</th>--}}
+                            {{--<th>预留字段4</th>--}}
+                            {{--<th>预留字段5</th>--}}
                             <th>修改时间</th>
                             @if (can('admin'))
 							    <th>操作</th>
@@ -78,11 +78,11 @@
                             <td>{{ $list['arrival_time'] }}</td>
                             <td>{{ $list['locomotive'] }}</td>
                             <td>{{ $list['departure_time'] }}</td>
-                            <td>{{ $list['reserve_1'] }}</td>
-                            <td>{{ $list['reserve_2'] }}</td>
-                            <td>{{ $list['reserve_3'] }}</td>
-                            <td>{{ $list['reserve_4'] }}</td>
-                            <td>{{ $list['reserve_5'] }}</td>
+                            {{--<td>{{ $list['reserve_1'] }}</td>--}}
+                            {{--<td>{{ $list['reserve_2'] }}</td>--}}
+                            {{--<td>{{ $list['reserve_3'] }}</td>--}}
+                            {{--<td>{{ $list['reserve_4'] }}</td>--}}
+                            {{--<td>{{ $list['reserve_5'] }}</td>--}}
                             <td>{{ $list['updated_at'] }}</td>
                             @if (can('admin'))
                                 <td>
