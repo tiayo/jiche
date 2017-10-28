@@ -67,10 +67,43 @@
                         </div>
                     </div>
 
+                    {{--预留一--}}
                     <div class="form-group">
                         <label for="reserve_1" class="col-sm-2 col-sm-2 control-label">预留字段1</label>
                         <div class="col-sm-3">
-                            <input type="text" class="form-control" id="reserve_1" name="reserve_1" value="{{ $old_input['reserve_1'] }}" required>
+                            <input type="text" class="form-control" id="reserve_1" name="reserve_1" value="{{ $old_input['reserve_1'] }}">
+                        </div>
+                    </div>
+
+                    {{--预留二--}}
+                    <div class="form-group">
+                        <label for="reserve_2" class="col-sm-2 col-sm-2 control-label">预留字段2</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="reserve_2" name="reserve_2" value="{{ $old_input['reserve_2'] }}">
+                        </div>
+                    </div>
+
+                    {{--预留三--}}
+                    <div class="form-group">
+                        <label for="reserve_3" class="col-sm-2 col-sm-2 control-label">预留字段3</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="reserve_3" name="reserve_3" value="{{ $old_input['reserve_3'] }}">
+                        </div>
+                    </div>
+
+                    {{--预留四--}}
+                    <div class="form-group">
+                        <label for="reserve_4" class="col-sm-2 col-sm-2 control-label">预留字段4</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="reserve_4" name="reserve_4" value="{{ $old_input['reserve_4'] }}">
+                        </div>
+                    </div>
+
+                    {{--预留五--}}
+                    <div class="form-group">
+                        <label for="reserve_5" class="col-sm-2 col-sm-2 control-label">预留字段5</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="reserve_5" name="reserve_5" value="{{ $old_input['reserve_5'] }}">
                         </div>
                     </div>
 
