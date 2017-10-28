@@ -129,15 +129,15 @@
     <script>
         window.onload = function () {
             flatpickr("#start_time", {
-                enableTime: false,
+                enableTime: true,
                 altInput: true,
-                altFormat: "Y-m-d"
+                altFormat: "Y-m-d H:i:S"
             });
 
             flatpickr("#end_time", {
-                enableTime: false,
+                enableTime: true,
                 altInput: true,
-                altFormat: "Y-m-d"
+                altFormat: "Y-m-d H:i:S"
             });
         }
     </script>

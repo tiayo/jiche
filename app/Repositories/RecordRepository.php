@@ -63,7 +63,7 @@ class RecordRepository
     public function getSearch($post)
     {
         $start = Carbon::parse($post['start_time'])->toDateTimeString();
-        $end = Carbon::parse($post['end_time'])->addDay(1)->toDateTimeString();
+        $end = Carbon::parse($post['end_time'])->toDateTimeString();
 
         return $this->record
             ->where('created_at', '>=', $start)
